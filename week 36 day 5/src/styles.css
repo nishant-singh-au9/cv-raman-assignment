@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input__label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: inline;
+  margin: 10px;
+}
+
+.main__input{
+  height: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom : 2px solid green;
+  padding: 0 5px;
+}
+
+button {
+  margin: 10px 10px;
+  background: green;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#loader{
+  height: 70px;
+}
+
+.loader{
+  display: none;
+}
